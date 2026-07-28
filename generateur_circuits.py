@@ -1,5 +1,5 @@
 import streamlit as st
-import google.generativeai as genai
+from google import genai
 
 # Configuration de la page
 st.set_page_config(page_title="Générateur Circuitikz | Ighirane", page_icon="⚡", layout="wide")
