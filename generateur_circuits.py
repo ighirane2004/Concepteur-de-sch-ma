@@ -45,7 +45,7 @@ Pour tout générateur idéal de tension (E), la flèche de tension et la flèch
 - Le préambule avec `straightvoltages` et `\ctikzset{inductor=american}` est OBLIGATOIRE à chaque génération. Ne le zappe jamais.
 - GÉOMÉTRIE : Ne trace jamais plus de 3 composants sur une même ligne droite. Utilise les branches verticales (droite et gauche) pour fermer un circuit proprement et éviter l'étirement horizontal.
 </regles_absolues>
-
+Tu dois IMPÉRATIVEMENT déclarer toutes les coordonnées \coordinate (Nom) at (x,y); au début de l'environnement tikzpicture avant toute commande \draw.
 <exemples_few_shot>
 CAS 1 : Générateur idéal (Tracé de N vers P obligatoire).
 \draw (0,0) node[circ, label=below:N]{} 
